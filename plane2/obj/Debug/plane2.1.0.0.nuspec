@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>plane2</id>
+    <version>1.0.0</version>
+    <authors>plane2</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net8.0-windows7.0" />
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net8.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\User\source\repos\plane2\plane2\bin\Debug\net8.0-windows\plane2.runtimeconfig.json" target="lib\net8.0-windows7.0\plane2.runtimeconfig.json" />
+    <file src="C:\Users\User\source\repos\plane2\plane2\bin\Debug\net8.0-windows\plane2.dll" target="lib\net8.0-windows7.0\plane2.dll" />
+  </files>
+</package>
